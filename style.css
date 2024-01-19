@@ -92,3 +92,10 @@ footer {
 /* End of Code Applies to All Pages */
 
 /* Start of AboutMe Code */
+.AppLogos {
+    margin-top: 3rem;
+    width: 20vw;
+    height: 20vh;
+    display: flex;
+    justify-content: space-between;
+}
