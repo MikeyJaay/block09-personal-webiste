@@ -93,23 +93,15 @@ footer {
 
 /* Start of AboutMe Code */
 .AppLogos {
-    margin-top: 3rem;
-    width: 20vw;
-    height: 20vh;
-    display: flex;
-    justify-content: space-between;
-    border: 1px solid black;
+  margin-top: 3rem;
+  display: flex;
+  justify-content: space-evenly;
 }
 
+.AppLogos img {
+  max-width: 100px;
+  margin: 10px;
+}
 /* Hover Effect for App Logos */
-.AppLogos {
-    transition: opacity 0.5s ease;
-    transform: 0.5s ease;
-    border: 0.5s ease; 
-}
 
-.AppLogos:hover {
-    opacity: 0.7;
-    transform: scale(1.1);
-    border: 3px solid #333;
-}
+/* End of Hover Effect */
