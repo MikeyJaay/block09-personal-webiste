@@ -102,6 +102,14 @@ footer {
   max-width: 100px;
   margin: 10px;
 }
+
 /* Hover Effect for App Logos */
+.AppLogos img {
+  transition: transform 0.3s ease; /* Smooth transition for scaling */
+}
+
+.AppLogos img:hover {
+  transform: scale(1.5); /* Scale up the image on hover */
+}
 
 /* End of Hover Effect */
