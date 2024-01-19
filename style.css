@@ -1,3 +1,5 @@
+/* Code Applies to All Pages */
+
 body {
   margin: 0;
 }
@@ -87,3 +89,6 @@ footer {
   background-color: gray;
   height: 100vh;
 }
+/* End of Code Applies to All Pages */
+
+/* Start of AboutMe Code */
