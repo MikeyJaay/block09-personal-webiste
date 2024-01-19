@@ -1,3 +1,5 @@
+/* Code Applies to All Pages */
+
 body {
   margin: 0;
 }
@@ -86,4 +88,28 @@ footer {
   width: 100vw;
   background-color: gray;
   height: 100vh;
+}
+/* End of Code Applies to All Pages */
+
+/* Start of AboutMe Code */
+.AppLogos {
+    margin-top: 3rem;
+    width: 20vw;
+    height: 20vh;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+}
+
+/* Hover Effect for App Logos */
+.AppLogos {
+    transition: opacity 0.5s ease;
+    transform: 0.5s ease;
+    border: 0.5s ease; 
+}
+
+.AppLogos:hover {
+    opacity: 0.7;
+    transform: scale(1.1);
+    border: 3px solid #333;
 }
