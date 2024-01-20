@@ -142,8 +142,23 @@ footer {
 
 .jobS {
   /* Style for each job entry */
-  border: 1px solid #ddd;
+  border: 1px solid #4f6f52;
   margin-bottom: 20px;
   padding: 10px;
+  border-radius: 20px;
+}
+
+.jobS > h1 {
+  /* Puts Experience Title on the same line as h2 job title but left alinged */
+  float: left;
+}
+
+.jobS > h2 {
+  /* Puts Year h2 on the same line as h1 job title but right alinged */
+  float: right;
+}
+
+.jobS > p {
+  margin-top: 40px;
 }
 /* END OF CAREERS CODE */
