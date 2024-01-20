@@ -1,4 +1,13 @@
-/* Code Applies to All Pages */
+/* FORMATING NOTES START */
+/* Color Tags: 
+   - Green lightest: #739072 
+   - Green Darker: #4F6F52 
+   - Green Darkest: #3A4D39
+   - Beige: #ECE3CE
+Color Palette from https://colorhunt.co/palette/ece3ce7390724f6f523a4d39
+   */
+/* FORMATING NOTES END */
+/* START OF Code Applies to All Pages */
 
 body {
   margin: 0;
@@ -19,7 +28,7 @@ header {
   height: 4rem;
   width: 100vw;
   border: 1px solid black;
-  background-color: gray;
+  background-color: #3a4d39;
   width: 100vw;
 }
 
@@ -50,14 +59,14 @@ p {
 nav > a {
   margin-right: 0.7rem;
   font-size: 0.7rem;
-  color: yellow;
+  color: #ece3ce;
 }
 /* END OF HEADER */
 
 /* START OF MAIN */
 main {
   flex-grow: 1; /*Allows main to grow and fill available space */
-  background-color: lavender;
+  background-color: #ece3ce;
   width: 80vw;
   padding: 20px;
   overflow: auto; /*Adds scroll to main if content overflow */
@@ -66,7 +75,7 @@ main {
 aside {
   min-height: 80vh;
   min-width: 15vw;
-  background-color: bisque;
+  background-color: #739072;
 }
 
 body {
@@ -89,7 +98,7 @@ main > h1 {
 /* START OF FOOTER */
 footer {
   width: 100vw;
-  background-color: gray;
+  background-color: #3a4d39;
   height: auto;
   padding: 20px 0; /* 20 adds spacing to top & bottom off footer, 0 is for no padding on L/R sides in casue of changes to <aside> tags */
 }
