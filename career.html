@@ -7,13 +7,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Change for different pages -->
-    <title>About</title>
+    <title>My Career</title>
   </head>
   <body>
     <header>
       <div>
         <img src="memoji.png" alt="memoji avatar" />
-        <h1>Welcome to My Portfolio!</h1>
+        <h1>Timeline of my Career</h1>
       </div>
       <nav>
         <a href="home.html">Home</a>
@@ -25,30 +25,146 @@
     <div>
       <aside></aside>
       <main>
-        <!-- Projects -->
-        <h1>Project 1</h1>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
-          deleniti inventore doloremque pariatur labore, aperiam, est repellat
-          ad ratione fugit corporis dignissimos necessitatibus praesentium
-          molestias officiis omnis a officia amet!
-        </p>
+        <!-- Filter Icon and Dropdown -->
+        <div class="filter-icon"></div>
+        <select id="filterOptions">
+          <option value="all" selected>All Experience</option>
+          <option value="clear">Clear Filter</option>
+          <option value="newest">Newest to Oldest</option>
+          <option value="oldest">Oldest to Newest</option>
+          <option value="professional">Professional Experience</option>
+          <option value="education">Educational Experience</option>
+        </select>
 
-        <h1>Project 2</h1>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos
-          recusandae dolore consectetur quam maiores? Totam enim aliquid fuga.
-          Incidunt sint voluptates accusantium ipsa ipsum, corrupti est deleniti
-          cumque molestias sequi?
-        </p>
+        <!-- START OF EXPERIENCE LIST -->
+        <!-- CMU -->
+        <div
+          class="jobS"
+          data-start-date="2015-08"
+          data-end-date="2019-05"
+          data-category="education"
+        >
+          <h1>Undergrad: Central Michigan University</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
+            deleniti inventore doloremque pariatur labore, aperiam, est repellat
+            ad ratione fugit corporis dignissimos necessitatibus praesentium
+            molestias officiis omnis a officia amet!
+          </p>
+        </div>
 
-        <h1>Project 3</h1>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos
-          recusandae dolore consectetur quam maiores? Totam enim aliquid fuga.
-          Incidunt sint voluptates accusantium ipsa ipsum, corrupti est deleniti
-          cumque molestias sequi?
-        </p>
+        <!-- Internship SFC -->
+        <div
+          class="jobS"
+          data-start-date="2019-05"
+          data-end-date="2019-08"
+          data-category="professional"
+        >
+          <h1>Scott Fosgard Communications</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos
+            recusandae dolore consectetur quam maiores? Totam enim aliquid fuga.
+            Incidunt sint voluptates accusantium ipsa ipsum, corrupti est
+            deleniti cumque molestias sequi?
+          </p>
+        </div>
+
+        <!-- Domino's Pizza Inc. -->
+        <div
+          class="jobS"
+          data-start-date="2019-11"
+          data-end-date="2021-10"
+          data-category="professional"
+        >
+          <h1>Domino's Pizza Inc.</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos
+            recusandae dolore consectetur quam maiores? Totam enim aliquid fuga.
+            Incidunt sint voluptates accusantium ipsa ipsum, corrupti est
+            deleniti cumque molestias sequi?
+          </p>
+        </div>
+
+        <!-- MBA: Oakland University -->
+        <div
+          class="jobS"
+          data-start-date="2021-05"
+          data-end-date="2024-04"
+          data-category="education"
+        >
+          <h1>Postgrad: MBA, Oakland University</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos
+            recusandae dolore consectetur quam maiores? Totam enim aliquid fuga.
+            Incidunt sint voluptates accusantium ipsa ipsum, corrupti est
+            deleniti cumque molestias sequi?
+          </p>
+        </div>
+
+        <!-- Veryable -->
+        <div
+          class="jobS"
+          data-start-date="2021-10"
+          data-end-date="2022-03"
+          data-category="professional"
+        >
+          <h1>Veryable</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos
+            recusandae dolore consectetur quam maiores? Totam enim aliquid fuga.
+            Incidunt sint voluptates accusantium ipsa ipsum, corrupti est
+            deleniti cumque molestias sequi?
+          </p>
+        </div>
+
+        <!-- Codility -->
+        <div
+          class="jobS"
+          data-start-date="2022-03"
+          data-end-date="2023-02"
+          data-category="professional"
+        >
+          <h1>Codility</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos
+            recusandae dolore consectetur quam maiores? Totam enim aliquid fuga.
+            Incidunt sint voluptates accusantium ipsa ipsum, corrupti est
+            deleniti cumque molestias sequi?
+          </p>
+        </div>
+
+        <!-- Hackajob -->
+        <div
+          class="jobS"
+          data-start-date="2023-02"
+          data-end-date="2024-01"
+          data-category="professional"
+        >
+          <h1>Hackajob</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos
+            recusandae dolore consectetur quam maiores? Totam enim aliquid fuga.
+            Incidunt sint voluptates accusantium ipsa ipsum, corrupti est
+            deleniti cumque molestias sequi?
+          </p>
+        </div>
+
+        <!-- Fullstack -->
+        <div
+          class="jobS"
+          data-start-date="2024-01"
+          data-end-date="2024-03"
+          data-category="education"
+        >
+          <h1>Univeristy of Michigan: Fullstack Bootcamp</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos
+            recusandae dolore consectetur quam maiores? Totam enim aliquid fuga.
+            Incidunt sint voluptates accusantium ipsa ipsum, corrupti est
+            deleniti cumque molestias sequi?
+          </p>
+        </div>
+        <!-- END OF EXPERINCE LIST-->
       </main>
       <aside></aside>
     </div>

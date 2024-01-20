@@ -114,3 +114,20 @@ footer {
 
 /* End of Hover Effect */
 /* END OF ABOUT ME CODE */
+
+/* START OF CAREERS CODE */
+
+#filterOptions {
+  /* Style for the filter dropdown */
+  margin-bottom: 20px;
+  padding: 5px;
+  font-size: 16px;
+}
+
+.jobS {
+  /* Style for each job entry */
+  border: 1px solid #ddd;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+/* END OF CAREERS CODE */
