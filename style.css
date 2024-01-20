@@ -23,6 +23,7 @@ body {
 /* START OF HEADER */
 header {
   display: flex;
+  position: fixed; /* Keeps Header in view even with scroll -- MIGHT CHANGE */
   justify-content: space-between;
   align-items: center;
   height: 4rem;
@@ -67,14 +68,16 @@ nav > a {
 main {
   flex-grow: 1; /*Allows main to grow and fill available space */
   background-color: #ece3ce;
+  min-height: 100vh;
   width: 80vw;
   padding: 20px;
+  margin-top: 4rem; /* Stops header from going over top of first line of main contnet i.e. <h1> */
   overflow: auto; /*Adds scroll to main if content overflow */
 }
 
 aside {
   min-height: 80vh;
-  min-width: 15vw;
+  min-width: 0vw; /* Removed aside coloumns due to look origin a value 15vw */
   background-color: #739072;
 }
 
