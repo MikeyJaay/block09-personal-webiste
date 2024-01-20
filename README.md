@@ -1,1 +1,3 @@
 # block09-personal-webiste
+
+This is the start of my personal website! The goal is to communicate the journey of my career before learning how to code and how my pervious experinces impacts my view on programming today. My hope is to demonstrate how my years of experience in public realtions, product marketing, tech sales and SaaS start-up experinece gives me a unique outlook on the future of software engineering.
