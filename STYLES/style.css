@@ -105,6 +105,12 @@ footer {
   height: auto;
   padding: 20px 0; /* 20 adds spacing to top & bottom off footer, 0 is for no padding on L/R sides in casue of changes to <aside> tags */
 }
+
+footer > a > img {
+  /* Styling for Social Meida Icons in Footer */
+  height: 20px;
+  margin-left: 10px;
+}
 /* End of Code Applies to All Pages */
 
 /* START OF ABOUT ME CODE*/
