@@ -22,6 +22,7 @@ header {
   border: 1px solid black;
   background-color: #134e6a;
   width: 100vw;
+  z-index: 10000; /* stopped content from going over header during scroll on careers page, issue only happend on careers page */
 }
 
 header > div {
