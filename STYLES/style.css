@@ -35,20 +35,6 @@ img {
   height: 100%;
 }
 
-header > div > h1 {
-  margin-left: 1rem;
-  margin-top: 1rem;
-  color: white;
-  font-weight: bolder;
-  font-size: 40px;
-}
-
-p {
-  margin-left: 1rem;
-  margin-top: 1rem;
-  color: black;
-}
-
 nav > a {
   margin-right: 2rem;
   font-size: 0.7rem;
@@ -90,13 +76,6 @@ body > div {
   display: flex;
 }
 
-main > p {
-  margin-left: 1rem;
-  margin-top: 1rem;
-  color: white;
-  font-weight: bolder;
-  font-size: 20px;
-}
 /* END OF MAIN */
 
 /* START OF FOOTER */
