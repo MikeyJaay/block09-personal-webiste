@@ -27,6 +27,14 @@ h2 {
   margin: 10px;
 }
 
+p {
+  margin-left: 1rem;
+  margin-top: 1rem;
+  color: white;
+  font-weight: bolder;
+  font-size: 15px;
+}
+
 /* Hover Effect for App Logos */
 .AppLogos img {
   transition: transform 0.3s ease; /* Smooth transition for scaling */
